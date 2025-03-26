@@ -1,0 +1,57 @@
+/* body{
+    width: 100%;
+    height: 2000px;
+    background-image: url(../../../assets/images/sun.png),url(../../../assets/images/earth.png),url(../.../../../../assets/images/space.jpeg);
+    background-repeat: no-repeat;
+    background-size: 40%,20%,100% 100%;
+    background-position:-300px -300px,bottom left,center;
+    background-attachment: fixed,scroll,scroll;
+}
+#rocket_marquee{
+    width: 20%;
+    height: 2000px;
+    float: right;
+}
+#rocket_image{
+    width: 100%;
+}
+#astronaut_image{
+    width: 200px;
+}
+#parent_astronaut_marquee{
+    width: 80%;
+}
+#child_astronaut_marquee{
+    height: 2000px;
+}  */
+
+body{
+    width: 100%;
+    height: 3000px;
+    background-image: url(../../../assets/images/sun.png),url(../../../assets/images/earth.png),url(../../../assets/images/space.jpeg);
+    background-size: 40%,20%,100% 100%;
+    background-position: -300px -250px,bottom left,center;
+    background-attachment: fixed,scroll,scroll;
+
+    background-repeat: no-repeat;
+}
+#rocket_marquee{
+    float: right;
+    width: 20%;
+    height: 3000px;
+    background-size: 200px;
+}
+#rocket_image{
+    width: 250px;
+}
+ #outer_astronaut_marquee{
+    width: 80%;
+    
+} 
+ #inner_astronaut_marquee{
+    height: 3000px;
+}
+#astronaut_image{
+    width: 250px;
+}  
+
