@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#earth_container{
+    width: fit-content;
+
+   
+    margin: 180px;
+    margin-top: 15%;
+    
+
+}
+#image{
+    width: 100px;
+    margin-bottom: 180px;
+
+    
+}
+#earth_container:hover #image{
+    width: 180px;
+    margin-left: 200px;
+}
+.element{
+    margin-left: 45%;
+    text-align: center;
+    color: transparent;
+     /* float: right; */
+} 
+#earth_container:hover>#earth_legend{
+    margin-left: 90%;
+    border: 1px double blue;
+    
+
+}
+#earth_container:hover .element{
+    border:1px double blue;
+    color: black;
+   
+}
+#earth_container:hover #earth{
+    
+    margin-right: 150px;
+    margin-left: 610px;
+    text-align: end;
+    background-color: royalblue;
+    color: white;
+}
+

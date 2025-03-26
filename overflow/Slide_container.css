@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 450px;
+    height: 250px;
+    background-color: gray;
+    position: relative;
+    top: 175px;
+    left: 32.5%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#slider_container{
+    width: 200%;
+    height: 100%;
+    transition: all 500ms ease-out;
+
+
+
+
+}
+#shoe_image{
+    width: 35%;
+    position: relative;
+    left: 7.5%;
+    top: 15%;
+}
+.shoe_details{
+    font-size: 75px;
+    position: relative;
+    bottom: 60%;
+    left: 55%;
+    margin-bottom: 10px;
+}
+#shoe_name{
+    font-family: NeueMachina;
+}
+#shoe_price{
+    font-family: ProductSans;
+    color: blue;
+    left: 56.5%;
+}
+#container:hover>#slider_container{
+    transform: translateX(-50%);
+}
+@font-face{
+    font-family:NeueMachina ;
+    src: url(../../../assets/fonts/NeueMachina-Regular.otf);
+}
+@font-face{
+    font-family:ProductSans;
+    src: url(../../../assets/fonts/Product\ Sans\ Regular.ttf);
+}

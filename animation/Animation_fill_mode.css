@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#square_container{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 250px;
+    left: 45%;
+}
+#square_container:hover{
+    animation-name:  toAnimateSquareContainer;
+    animation-duration: 5s;
+    animation-delay: 3s;
+
+    animation-fill-mode: none;
+    /* (default value fills the animation from 'default state' and to 'from state' and to 'to state' and to 'default state') */
+
+     /* animation-fill-mode: forwards; */
+    /* (forwards value fills the animation from 'default state' and to 'from state' and to 'to state') */
+
+     animation-fill-mode:backwards;
+    /* (backwards value fills the animation from 'from state' and to 'to state' and to 'default state') */
+
+    /* animation-fill-mode:both; */
+    /* (both value fills the animation 'from state' and to 'to state') */ 
+
+}
+@keyframes toAnimateSquareContainer{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+}

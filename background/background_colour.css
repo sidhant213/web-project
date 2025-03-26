@@ -1,0 +1,10 @@
+#image_container{
+    width: 500px;
+    height: 500px;
+    /* background-image: linear-gradient(red,blue); */
+    background-color: lightgray;
+    background-image: url(../../../assets/images/football.png);
+    background-size: 10% ;
+    background-repeat: repeat;
+    background-position: center;
+}

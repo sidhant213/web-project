@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#name_letters_container{
+    position: relative;
+    top: 200px;
+    left: 32.5%;
+}
+.name_letters{
+    float: left;
+    font-size: 150px;
+    font-family: ProductSans;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#r_letter{
+    color: red;
+    animation-name: toAnimateRLetter;
+    animation-duration: 1.5s;
+}
+#a_letter{
+    color: orange;
+    animation-name: toAnimateALetter;
+    animation-duration: 1.5s;
+}
+#m_letter{
+    color: blue;
+    animation-name: toAnimateMLetter;
+    animation-duration: 3s;
+}
+#u_letter{
+    color:green;
+    animation-name: toAnimateULetter;
+    animation-duration: 3.5s;
+}
+@keyframes toAnimateRLetter{
+    25%{
+        transform: rotate(-45deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    75%{
+        transform: translateY(-100px) rotate(360deg);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+}
+@keyframes toAnimateALetter{
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    75%{
+        transform: translateY(100px) rotate(360deg);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
+@keyframes toAnimateMLetter{
+    25%{
+        transform: rotateY(360deg);
+    }
+    50%{
+        transform: rotateY(-360deg);
+    }
+    75%{
+        transform: translateY(100px) scale(1.3);
+    }
+    100%{
+        transform: translateY(-100px) scale(0.5);
+    }
+}
+@keyframes toAnimateULetter{
+    25%{
+        transform: rotateY(360deg);
+    }
+    50%{
+        transform: rotateY(-360deg);
+    }
+    75%{
+        transform: translateY(-100px) rotate(360deg);
+    }
+    100%{
+        transform: translateY(-100px) rotate(-360deg);
+    }
+}
+
+@font-face{
+    font-family: ProductSans;
+    src: url(../../../assets/fonts/Product\ Sans\ Regular.ttf);
+}

@@ -1,0 +1,43 @@
+ /* --first way--- */
+#parent_capsule{
+    width: 300px;
+    height: 150px;
+    
+} 
+ .capsules{
+    width: 50%;
+    height: 100%;
+    float: left;
+} 
+
+#blue_capsule{
+    border-radius: 50% 0% 0% 50%;
+    background-color: blue;
+} 
+ #gray_capsule{
+    border-radius: 0% 50% 50% 0%;
+    background-color:gray;
+} 
+/* ------second way----- */
+    /* capsule */
+#capsule{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to right,blue 50% ,gray 50%);
+    border-radius: 75px;
+}  
+/* ------third way----- */
+
+#blue_parent_capsule{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 75px;
+}
+ #gray_child_capsule{
+    width: 50%;
+    height: 100%;
+    float: right; 
+    background-color: gray;
+    border-radius: 0% 50% 50% 0%;
+}  

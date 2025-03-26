@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#image_container{
+    width: 100%;
+    height: 692.5px;
+    background-color:gray ;
+    /* border: 2px solid black; */
+  
+   
+}
+.images{
+    width: 150px;
+  
+    background-position:0px;
+    transition:margin-left 5s;
+    
+}
+#cycle{
+    transition-timing-function: ease;
+}
+#bike{
+    transition-timing-function: ease-in;
+}
+#car{
+    transition-timing-function: ease-in-out;
+}
+#bus{
+    transition-timing-function: ease-out;
+}
+#buldozer{
+    transition-timing-function: linear;
+}
+
+#image_container:hover>.images{
+    margin-left: 90%;
+}

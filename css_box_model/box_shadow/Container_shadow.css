@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 250px auto;
+    transition: box-shadow 500ms;
+}
+#container:hover{
+    box-shadow: 20px 20px 10px gray;
+    box-shadow: 20px -20px 10px gray;
+    box-shadow: -20px -20px 10px gray;
+    box-shadow: -20px 20px 10px gray;
+  
+}

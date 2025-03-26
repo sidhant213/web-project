@@ -1,0 +1,19 @@
+#container{
+    width: 200px;
+    height: 200px;
+    /* background-color: lightgray; */
+ 
+    /* background-color: lightgray; */
+   
+/*    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+   background-image: url(../../../assets/images/spider-man\ image.png),linear-gradient(145deg,red,transparent,transparent,red), linear-gradient(225deg,blue,transparent,transparent,transparent,blue);  */
+  
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../../assets/images/spider-man\ image.png),linear-gradient(145deg,blue,transparent,transparent 20%,blue),radial-gradient(red,transparent 50%,red);
+   
+}

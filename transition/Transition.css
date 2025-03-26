@@ -1,0 +1,27 @@
+#color_container{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    /* transition-property: width,height,background-color,border-radius;
+    transition-duration: 5s ,5s,10s,15s; */
+    /* transition: width 5s,height 5s,background-color 5s,border-radius 5s; */
+    transition:all 5s;
+}
+#color_container:hover{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+}
+#image_container{
+    width: 150px;
+    height: 150px;
+    background-image: url(.../../../../../../assets/images/sun.png);
+    background-size: 120%;
+    background-position: center;
+    border-radius: 50%;
+    transition: background-image 5s;
+}
+#image_container:hover{
+    background-image: url(../../../../assets/images/earth.png);
+}

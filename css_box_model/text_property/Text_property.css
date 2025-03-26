@@ -1,0 +1,27 @@
+#web_heading{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline 3px solid red;
+    font-size: 100px;
+    font-family: ProductSans;
+    font-weight: bold;
+    font-style: normal;
+}
+#lorem_paragraph{
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 100px;
+    font-size: 50px;
+    font-family: NeueMachina;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    line-height: 50px;
+}
+@font-face{
+    font-family: NeueMachina;
+    src: url(../../../../assets/fonts/NeueMachina-Regular.otf);
+}
+@font-face{
+    font-family:ProductSans;
+    src: url(../../../../assets/fonts/NeueMachina-Regular.otf);
+}

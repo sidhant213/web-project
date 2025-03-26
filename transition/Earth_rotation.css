@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#parent_container{
+    width: 100%;
+    height: 600px;
+}
+.buttons{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+button:hover{
+    color: darkgreen;
+}
+#earth_image{
+    width: 100px;
+    height: 100px;
+    transition: transform 5s linear;
+}
+
+#button_x:hover~#earth_image{
+    transform: rotateX(360deg);
+}
+#button_y:hover~#earth_image{
+    transform:rotateY(360deg)
+}
+#button_z:hover~#earth_image{
+    transform:rotateZ(360deg)
+}

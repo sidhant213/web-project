@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+#glowing_button{
+    width: 300px;
+    height: 150px;
+    border: none;
+    font-size: 40px;
+    outline: none;
+    border-radius: 50px;
+    margin-top: 250px;
+    margin-left: 37.5%;
+    background-color: lawngreen;
+}
+
+#glowing_button:hover{
+    box-shadow: 20px -20px 100px lawngreen,20px 20px 100px lawngreen,-20px 20px 100px lawngreen,-20px -20px 100px lawngreen; 
+    box-shadow:0px 0px 50px lawngreen,0px 0px 150px lawngreen,0px 0px 250px lawngreen,0px 0px 350px lawngreen; 
+}

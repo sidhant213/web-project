@@ -1,0 +1,42 @@
+/* .heading{
+    width: 120px;
+}
+#population_container{
+    color: red;
+    font-size: 50px;
+
+
+}
+#Graph{
+    color: blue;
+}
+#india_heading{
+    border-right: 650px solid red;
+}
+#china_heading{
+    border-right: 550px solid orange;
+}
+#usa_heading{
+    border-right: 250px solid green;
+} */
+ .heading{
+    width: 120px;
+    text-align: center;
+ }
+ #population_container{
+    color: red;
+    font-size: 50px;
+ }
+ #graph{
+    color: blue;
+ }
+ #india_heading{
+    border-right: 900px solid red;
+    
+ }
+ #china_heading{
+    border-right:800px solid orange ;
+ }
+ #usa_heading{
+    border-right:300px solid green ;
+ }

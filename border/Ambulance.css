@@ -1,0 +1,56 @@
+/* table{
+    border-collapse: collapse;
+} 
+td{
+    border: 1px solid red;
+}
+.empty_cells{
+    border: none;
+}
+#first_g{
+    border-bottom: none;
+}
+#second_g{
+    border-right: none;
+}
+#first_d{
+    border-left: none;
+}
+#second_d{
+    border-top: none;
+}
+#o_cell{
+    border: none;
+
+} */
+td{
+    border: 1px solid red;
+}
+table{
+    /* border: 2px solid red; */
+    border-collapse: collapse;
+    font-size: 55px;
+    text-align: center;
+}
+.empty_cells,#first_o{
+    border: none;
+}
+/* #first_e{
+   
+    border: none;
+} */
+#first_w{
+    border-bottom: none;
+}
+#first_o{
+    border-left: none;
+}
+#second_w{
+    border-right: none;
+}
+#third_w{
+    border-left: none;
+}
+#fourth_w{
+    border-top: none;
+}

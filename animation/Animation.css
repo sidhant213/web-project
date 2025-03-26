@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#color_ball{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+#color_ball:hover{
+    animation-name: toAnimateColorBallToperformWPattern;
+    animation-duration: 5s;
+}
+@keyframes toAnimateColorBallToperformWPattern{
+    0%{
+        transform: translate(0px,0px) scale(1);
+    }
+    25%{
+        transform: translate(0px,500px) scale(0);
+        background-color: orange;
+    }
+    50%{
+        transform: translate(250px,250px) scale(1.5);
+        background-color: blue;
+    }
+    75%{
+        transform: translate(500px,500px) scale(0);
+        background-color: yellow;
+    }
+    100%{
+        transform: translate(500px,0px) scale(1);
+        background-color: hotpink;
+    }
+  
+}

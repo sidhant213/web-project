@@ -1,0 +1,27 @@
+#parent{
+    width: fit-content;
+    font-size: 100px;
+}
+.child{
+    float: left;
+
+}
+.text_royalblue{
+    color: royalblue;
+}
+.text_red{
+    color: red;
+}
+#text_orange{
+    color: orange;
+}
+#text_green{
+    color:green;
+}
+ #dummy_division{
+    width: 100%;
+     height: 100px; 
+ }  
+.marquees{
+    height: 350px;
+}

@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#image_container{
+    margin-top: 465px;
+    margin-left: 35%;
+}
+.images{
+    width: 250px;
+    height: 175px;
+    margin-left: -150px;
+    /* border-radius: 30px; */
+    transform: skewX(-30deg);
+    transition: transform 1s;
+
+}
+.images:hover{
+    border-radius: 30px;
+    box-shadow:10px 2px  5px rgba(0, 0, 0, 0.532);
+   
+}
+#one:hover{
+    transform:skewX(0deg)  translate(225px,-320px) rotateY(360deg) scale(2.5);
+    border: 5px ridge lightpink;
+}
+#two:hover{
+    transform:skewX(0deg) translate(120px,-320px) rotateY(360deg) scale(2.5);
+    border: 5px ridge lightblue;
+}
+
+#three:hover{
+    transform:skewX(0deg)  translate(15px,-320px) rotateY(360deg) scale(2.5);
+    border: 5px groove skyblue;
+}
+#four:hover{
+    transform:skewX(0deg) translate(-90px,-320px) rotateY(360deg)  scale(2.5);
+    border: 5px ridge green;
+}

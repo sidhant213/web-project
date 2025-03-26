@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.apply_border{
+    border: 2px solid red;
+}
+.font_size{
+    font-size: 50px;
+}
+#web_heading{
+    width: fit-content;
+    margin-bottom: 10px;
+}
+#web_paragraph{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#earth_image{
+    width: 150px;
+    margin-top: 10px;
+    padding:5px;
+}

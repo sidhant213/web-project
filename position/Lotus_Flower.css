@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#lotus_flower-container{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 125px;
+    left: 35%;
+
+}
+ .petals{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(pink,purple);
+    border-radius: 100% 0%;
+    position: absolute;
+    transform: rotateZ(-45deg); 
+    transition: transform 500ms;
+}
+#flower_bud{
+    width: 110px;
+    height: 110px;
+    background-image: linear-gradient(lightgreen,darkgreen);
+    border-radius: 0% 0% 50% 50%;
+    position:absolute;
+    top: 100%;
+    left: 34.3%;
+    z-index: 6;
+}
+#flower_bud:hover~#left_first_petal{
+    transform:translate(-55px,-1px) rotate(-65deg);
+}
+ #flower_bud:hover~#left_second_petal{
+    transform:translate(-110px,12px) rotate(-85deg);
+}
+#flower_bud:hover~#right_first_petal{
+    transform: translate(60px,2px) rotate(-22.5deg);
+}
+#flower_bud:hover~#right_second_petal{
+    transform: translate(112.5px,14px) rotate(-3.5deg);
+}
+#center_petal{
+    z-index:5;
+}
+#right_first_petal{
+  z-index: 4;
+}  

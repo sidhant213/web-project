@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#play_ground{
+    width: 100%;
+    height: 100px; 
+    background-color: lawngreen;
+    background-image:url(../../../../assets/images/football.png);
+    background-repeat:no-repeat;
+    background-size:100px;
+
+    /* transition-property: background-position;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 5s; */
+    /* 
+    trasition-shorthand */
+    transition: background-position 8s linear 3s;
+
+    /* transition:property   duration   timing-function   delay */
+
+}
+#play_ground:hover{
+    background-position: right;
+}

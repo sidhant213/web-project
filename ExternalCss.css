@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+button{
+    color: hotpink;
+    background-color: black;
+    border: none;
+    outline: none;
+}

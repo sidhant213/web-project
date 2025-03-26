@@ -1,0 +1,30 @@
+#parent_container{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+#child_container{
+    width: 100px;
+    height: 100px;
+
+
+/* color name */
+background-color:red;
+
+/* rgb value */
+background-color: rgb(255, 0, 225);
+/* rgba value */
+background-color: rgba(0, 0, 255,0.1);
+/* hex value */
+background-color: #00ffff;
+/* hexa value */
+background-color: #ff900030;
+/* hsl value */
+background-color: hsl(90deg, 78%, 80%);
+/* hsla value */
+background-color: hsla(0deg, 100%, 100%, 0.5);
+/* asian paint color value */
+background-color: #b59798;
+}
+
+

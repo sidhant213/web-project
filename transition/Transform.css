@@ -1,0 +1,11 @@
+#buldozer_image{
+    transition: transform 3s linear  4s;
+}
+
+#buldozer_image:hover{
+    /* rotate-transformation */
+    transform: rotateX(360deg);
+    transform: rotateY(360deg);
+    transform: rotateZ(360deg);
+
+}

@@ -1,0 +1,64 @@
+/* .container{
+    width: 100px;
+    height: 100px;
+} */
+
+/* #circular_radius{
+    background-color: gray;
+    /* one value(all) */
+    /* border-radius: 10px; */
+    /* two value(top-left,bottom-right;top-right & bottom-left) */
+     /* border-radius: 100px 0px;  */
+    /* four value(clock-wise) */
+     /* border-radius: 10px 20px 30px 40px; */
+/* }  */
+/* #sqaure_circle{
+    background-color: teal;
+    border-radius: 50%;
+}  */
+#google_gemini{
+    background-color: royalblue;
+  
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom-right,pink 25%,rgb(4,188,188));
+   
+}
+.inner{
+    height: 50%;
+    width: 50%;
+    background-color:white;
+    float: left;
+
+
+}
+#one,#four{
+  
+    border-radius: 100% 0%;
+}
+#two,#three{
+   
+    float: left;
+    border-radius: 0% 100%;
+}
+
+#flower_container{
+    width: 300px;
+    height: 300px;
+
+}
+.petals{
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient(pink,purple);
+    float: left;
+}
+#first_petal,#fourth_petal{
+    border-radius: 0% 100%;
+}
+#second_petal,#third_petal{
+    border-radius: 100% 0%;
+}
+
+

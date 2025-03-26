@@ -1,0 +1,66 @@
+.border_headings{
+    border-width: 10px;
+    border-color: blue;
+}
+#solid_border{
+    border-style: solid;
+}
+#dashed_border{
+    border-style: dashed;
+}
+#dotted_border{
+    border-style: dotted;
+}
+#double_border{
+    border-style: double;
+}
+#inset_border{
+    border-style: inset;
+    border-color: pink;
+
+}
+#outset_border{
+    border-style: outset;
+    border-color: pink;
+}
+.border_division{
+    width: 100px;
+    height: 100px;
+    border-width: 20px;
+    border-color: pink;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* .border_division{
+    width: 100px;
+    height:100px;
+    border-width: 20px;
+    border-color: yellow;
+} */
+#groove_border{
+    border-style: groove;
+    background-size: 80%;
+    background-image: url(.././../../assets/images/earth.png);
+}
+#rigde_border{
+    border-style: ridge;
+    background-size: 90%;
+    background-image: url(../../../assets/images/sun.png);
+}
+#short_hand{
+    width: 150px;
+    height: 150px;
+    border: 10px double lawngreen;
+}
+#specific_side_border{
+    width: 200px;
+    height: 200px;
+    border-top: 20px dotted red;
+    border-right: 20px dashed blue;
+    border-bottom: 20px solid black;
+    border-left: 20px double orange;
+}
+
+
+
+

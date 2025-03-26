@@ -1,0 +1,17 @@
+#canva_division{
+    width: fit-content;
+    font-size: 100PX;
+    background-image: linear-gradient(135deg,lightblue,blue,purple);
+    background-clip: text;
+    color: transparent;
+    font-family:dancing script;
+    
+}
+/* @font-face[
+    font-family:dancingScript
+    src:url(../../assets/fonts/dancingScript-bold.otf);
+] */
+ @font-face {
+    font-family:dancing script;
+    src:url(../../../assets/fonts/DancingScript-VariableFont_wght.ttf)
+ }

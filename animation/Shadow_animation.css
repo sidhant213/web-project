@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#shadow_container{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 250px;
+    left: 45%;
+    box-shadow: 50px 150px 0px blue,-70px 100px 0px red,-150px -50px 0px yellow,-50px -300px 0px orange;
+    animation: toAnimateShadowContainer 5s linear infinite alternate-reverse both;
+}
+#login_container{
+    width: 500px;
+    height: 250px;
+    background-color: rgba(128, 128, 128, 0.35);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 185px;
+    left: 30%;
+}
+@keyframes toAnimateShadowContainer{
+    25%{
+        transform: rotateZ(180deg) scale(1.5);
+    }
+    50%{
+        transform: rotateZ(-360deg) scale(0.5);
+    }
+    75%{
+        transform: rotateZ(360deg) scale(1.5);
+    }
+    100%{
+        transform: rotateZ(-720deg) scale(0.5);
+    }
+}

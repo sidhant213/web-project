@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.input_boxes{
+    outline: none;
+    border: 1px solid red;
+    color: red;
+    font-size: 25px;
+    width: 20%;
+    height: 35px;
+    margin: 10px 0px 0px 10px;
+}
+.input_boxes::placeholder{
+    color: red;
+    font-size: 25px;
+}
+.font_icons{
+    color: red;
+    font-size: 25px;
+    position: relative;
+    left:-40px;
+    top: 0.5px;
+}

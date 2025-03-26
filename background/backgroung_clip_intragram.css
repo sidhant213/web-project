@@ -1,0 +1,12 @@
+#text_container{
+    
+    font-size: 150px;
+    width: fit-content;
+
+    /* text-align: center; */
+
+    background-image: linear-gradient(to right,blue,magenta,red,orange);
+    background-clip: text;
+    color: transparent;
+    
+}

@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#text_container{
+    font-size: 100px;
+    width: fit-content;
+    background-image: linear-gradient(to right,blue,magenta,red,orange);
+    background-size: 500%;
+    background-clip: text;
+   
+    color: transparent; 
+    background-position: 0%;
+    transition: background-position 10s;
+
+}
+#text_container:hover{
+    background-position: 500%;
+}

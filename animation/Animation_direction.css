@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#web_heading{
+    font-size: 50px;
+    color: red;
+    animation-name: toAnimateHeading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    animation-direction: normal;
+    /* (default value starts the direction of animation from 'from state' and to 'to state' and it will flicker) */
+
+    animation-direction: reverse;
+    /* (reverse value starts the direction of animation from 'to state' and to 'from state' and it will flicker) */
+
+     animation-direction:alternate;
+    /*(alternate value starts the direction of animation from 'from state' and to 'to state' and it will not flicker) */
+
+     animation-direction:alternate-reverse ; 
+    /*(default value starts the direction of animation from 'to state' and to 'from state' and it will not  flicker) */
+    
+}
+@keyframes toAnimateHeading{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(25%);
+    }
+}
